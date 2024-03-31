@@ -1,5 +1,8 @@
 package nti.yummyforever.domain.entities
 
+import androidx.annotation.Keep
+
+@Keep
 data class Product(
     val id: Int,
     val category_id: Int,
